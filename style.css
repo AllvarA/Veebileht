@@ -230,16 +230,16 @@ hr {
   background-image: url(images/Arva.jpg);
 }
 .img2 {
-  background-image: url(../images/kesennem.jpg);
+  background-image: url(/images/kesennem.jpg);
 }
 .img3 {
-  background-image: url(../images/bankacc.jpg);
+  background-image: url(/images/bankacc.jpg);
 }
 .img4 {
-  background-image: url(../images/bankweb.jpg);
+  background-image: url(/images/bankweb.jpg);
 }
 .img5 {
-  background-image: url(../images/mapty.jpg);
+  background-image: url(/images/mapty.jpg);
 }
 
 .footer {
