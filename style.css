@@ -1,0 +1,267 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Akaya Telivigala', cursive, sans-serif;
+  font-weight: 400;
+  color: aliceblue;
+  padding: 2rem;
+}
+
+.header {
+  height: 93vh;
+  background-image: linear-gradient(
+      0deg,
+      rgba(0, 3, 4, 0.908000700280112) 0%,
+      rgba(77, 61, 152, 0.5102415966386555) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ),
+    url(../images/sky.jpg);
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 84vh);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  height: 5vh;
+  width: 100%;
+  padding: 0 6rem;
+}
+.lang {
+  text-decoration: none;
+  place-self: center;
+}
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  place-self: center;
+}
+.nav-item {
+  margin: 0rem 5rem;
+}
+.nav-link:link,
+.nav-link:visited {
+  font-size: 2rem;
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+.nav-link:hover {
+  transform: scale(1.3);
+  color: darkgoldenrod;
+}
+
+.text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.heading-main {
+  color: aliceblue;
+  text-transform: uppercase;
+  backface-visibility: hidden;
+  margin-bottom: 6rem;
+}
+.heading-main-head {
+  font-family: 'Reggae One', cursive;
+  cursor: default;
+  display: block;
+  font-size: 6rem;
+  letter-spacing: 0.35rem;
+}
+
+.heading-main-sub {
+  display: block;
+  font-size: 2rem;
+  font-weight: 400;
+  cursor: default;
+}
+#sub {
+  display: inline-block;
+  color: springgreen;
+  font-size: 3rem;
+  letter-spacing: 0.7rem;
+}
+#sub:hover {
+  cursor: none;
+  animation-name: jump;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-55%);
+  }
+  50% {
+    transform: translateY(10%);
+  }
+  75% {
+    transform: translateY(-55%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  border-radius: 1.5rem 5rem;
+  transition: all 0.2s;
+}
+.btn:hover {
+  transform: scale(1.2);
+  box-shadow: 0.5rem 1rem 2rem rgba(0, 0, 0, 0.514);
+}
+.btn:active {
+  transform: scale(1.1);
+  box-shadow: 0.2rem 0.5rem 1rem rgba(0, 0, 0, 0.514);
+}
+.btn-contact {
+  background-color: rgb(202, 230, 255);
+  color: black;
+}
+.main {
+  margin-top: 5vh;
+  padding: 5vh 5vh;
+  height: 100%;
+  color: black;
+}
+.section {
+  margin-top: 5vh;
+  padding: 5vh 5vw;
+  height: 100%;
+}
+/* .sub {
+  height: 100vh;
+} */
+.text {
+  font-family: 'Reggae One', cursive;
+  font-size: 3rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+#learn {
+  color: rgb(72, 141, 4);
+  text-decoration: none;
+}
+p {
+  font-size: 2.2rem;
+  margin: 5vh 15vw;
+  padding: 1vh 2vw 1vh 2vw;
+  line-height: 1.5;
+  text-align: justify;
+  overflow: auto;
+}
+ol {
+  font-size: 2.2rem;
+  margin: 1vh 18vw;
+  line-height: 1.5;
+  text-align: justify;
+}
+hr {
+  margin: auto;
+  border-top: 0.5rem dotted rgb(25, 105, 170);
+  width: 1vw;
+}
+.project-folder {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.javascript {
+  text-align: center;
+  font-size: 3rem;
+}
+.project-main {
+  margin: 2vh 2vw;
+  vertical-align: middle;
+}
+.project-sub {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 2vh;
+}
+
+.project-img {
+  height: 30vh;
+  width: 30vw;
+  background-position: center;
+  background-size: contain;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  border-radius: 25%;
+  /* margin: 5vh; */
+}
+.project-img:hover {
+  transform: rotateZ(5deg) scale(1.1);
+}
+.project-img:active {
+  transform: rotateZ(5deg) scale(0.9);
+}
+.img1 {
+  background-image: url(../images/Arva.jpg);
+}
+.img2 {
+  background-image: url(../images/kesennem.jpg);
+}
+.img3 {
+  background-image: url(../images/bankacc.jpg);
+}
+.img4 {
+  background-image: url(../images/bankweb.jpg);
+}
+.img5 {
+  background-image: url(../images/mapty.jpg);
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.footer--nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.footer--item {
+  margin: 3rem 3rem;
+}
+.footer--link {
+  font-size: 1.8rem;
+  text-decoration: none;
+  color: black;
+}
+.footer--copy {
+  display: flex;
+  justify-content: center;
+  color: black;
+}
