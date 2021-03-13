@@ -227,19 +227,19 @@ hr {
   transform: rotateZ(5deg) scale(0.9);
 }
 .img1 {
-  background-image: url(webimages/Arva.jpg);
+  background-image: url(../webimages/Arva.jpg);
 }
 .img2 {
-  background-image: url(web/images/kesennem.jpg);
+  background-image: url(../web/images/kesennem.jpg);
 }
 .img3 {
-  background-image: url(web/images/bankacc.jpg);
+  background-image: url(../web/images/bankacc.jpg);
 }
 .img4 {
-  background-image: url(web/images/bankweb.jpg);
+  background-image: url(../web/images/bankweb.jpg);
 }
 .img5 {
-  background-image: url(web/images/mapty.jpg);
+  background-image: url(../web/images/mapty.jpg);
 }
 
 .footer {
