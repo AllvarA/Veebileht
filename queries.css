@@ -1,0 +1,112 @@
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+  .nav {
+    height: 5rem;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .nav-item {
+    margin: 0rem 2rem;
+  }
+  .section {
+    margin-top: 2vh;
+    padding: 2vh 2vw;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  html {
+    font-size: 50%;
+  }
+  .nav {
+    height: 5rem;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .nav-item {
+    margin: 0rem 1rem;
+  }
+  .section {
+    margin-top: 2vh;
+    padding: 0px 0px;
+  }
+  p {
+    font-size: 1.8rem;
+    margin: 5vh 10vw;
+  }
+  ol {
+    font-size: 1.8rem;
+    margin: 1vh 16vw;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 30%;
+  }
+  .nav {
+    height: 5rem;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .nav-item {
+    margin: 0rem 1rem;
+  }
+  .section {
+    margin-top: 2vh;
+    padding: 0px 0px;
+  }
+  p {
+    font-size: 1.8rem;
+    margin: 5vh 10vw;
+  }
+  ol {
+    font-size: 1.8rem;
+    margin: 1vh 16vw;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  html {
+    font-size: 25%;
+  }
+  .nav {
+    height: 5rem;
+    width: 100%;
+    padding: 0 2rem;
+  }
+
+  .nav-item {
+    margin: 0rem 1rem;
+  }
+  .section {
+    margin-top: 2vh;
+    padding: 0px 0px;
+  }
+  p {
+    font-size: 1.4rem;
+    margin: 2vh 5vw;
+  }
+  ol {
+    font-size: 1.4rem;
+    margin: 1vh 10vw;
+  }
+  .project-sub {
+    font-size: 1rem;
+    text-align: center;
+    margin-bottom: 0vh;
+  }
+  .img1,
+  .img2,
+  .img3,
+  .img4,
+  .img5 {
+    height: 66px;
+    width: 140px;
+  }
+}
