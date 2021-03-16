@@ -1,6 +1,6 @@
 @media only screen and (max-width: 1200px) {
   html {
-    font-size: 60%;
+    font-size: 50%;
   }
   .nav {
     height: 5rem;
@@ -19,7 +19,7 @@
 
 @media only screen and (max-width: 1023px) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
   .nav {
     height: 5rem;
@@ -35,18 +35,18 @@
     padding: 0px 0px;
   }
   p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 5vh 10vw;
   }
   ol {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 1vh 16vw;
   }
 }
 
 @media only screen and (max-width: 767px) {
   html {
-    font-size: 30%;
+    font-size: 25%;
   }
   .nav {
     height: 5rem;
@@ -62,18 +62,18 @@
     padding: 0px 0px;
   }
   p {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 5vh 10vw;
   }
   ol {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     margin: 1vh 16vw;
   }
 }
 
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 25%;
+    font-size: 20%;
   }
   .nav {
     height: 5rem;
