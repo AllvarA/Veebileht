@@ -21,7 +21,7 @@ body {
       rgba(77, 61, 152, 0.5102415966386555) 35%,
       rgba(0, 212, 255, 1) 100%
     ),
-    url(images/sky.jpg);
+    url(./images/sky.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
