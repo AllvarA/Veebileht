@@ -224,21 +224,6 @@ hr {
 .project-img:active {
   transform: rotateZ(5deg) scale(0.9);
 }
-.img1 {
-  background-image: url(https://allvara.github.io/web/images/arva.jpg);
-}
-.img2 {
-  background-image: url(https://allvara.github.io/web/images/kesennem.jpg);
-}
-.img3 {
-  background-image: url(https://allvara.github.io/web/images/bankacc.jpg);
-}
-.img4 {
-  background-image: url(https://allvara.github.io/web/images/bankweb.jpg);
-}
-.img5 {
-  background-image: url(https://allvara.github.io/web/images/mapty.jpg);
-}
 
 .footer {
   background-image: linear-gradient(
