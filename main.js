@@ -51,12 +51,11 @@ function press(e) {
 // Loops over class project-main and choosing titles for EN and EE
 for (let i = 0; i < projects.length; i++) {
   let project = projects[i];
+  let selector = document.querySelector(`.project${[i + 1]}`);
   if (language.textContent === "EST") {
-    let selector = (document.querySelector(`.project${[i + 1]}`).textContent =
-      projectNames[0][i]);
+    selector.textContent = projectNames[0][i];
   } else {
-    let selector = (document.querySelector(`.project${[i + 1]}`).textContent =
-      projectNames[1][i]);
+    selector.textContent = projectNames[1][i];
   }
   // Selecting images and choosing website for every image
   let img = document.querySelector(`.img${i + 1}`);
