@@ -101,11 +101,7 @@
     text-align: center;
     margin-bottom: 0vh;
   }
-  .img1,
-  .img2,
-  .img3,
-  .img4,
-  .img5 {
+  .project-img {
     height: 66px;
     width: 140px;
   }
