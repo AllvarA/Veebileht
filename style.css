@@ -216,7 +216,6 @@ hr {
   object-fit: fill;
   background-repeat: no-repeat;
   border-radius: 25%;
-  /* margin: 5vh; */
 }
 .project-img:hover {
   transform: rotateZ(5deg) scale(1.1);
