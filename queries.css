@@ -48,7 +48,7 @@
   }
   .project-main {
     height: 45vh;
-    width: 15vw;
+    width: 20vw;
   }
 }
 
@@ -78,8 +78,8 @@
     margin: 1vh 16vw;
   }
   .project-main {
-    height: 30vh;
-    width: 15vw;
+    height: 40vh;
+    width: 20vw;
   }
 }
 
@@ -115,8 +115,8 @@
     overflow: auto;
   }
   .project-main {
-    height: 20vh;
-    width: 13vw;
+    height: 30vh;
+    width: 20vw;
   }
 }
 @media only screen and (max-width: 350px) {
@@ -151,5 +151,11 @@
   .project-main {
     height: 20vh;
     width: 13vw;
+  }
+}
+@media only screen and (max-width: 350px) {
+  .project-main {
+    height: 15vh;
+    width: 20vw;
   }
 }
