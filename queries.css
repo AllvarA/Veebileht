@@ -141,6 +141,7 @@
   ol {
     font-size: 1.2rem;
     margin: 1vh 5vw;
+    overflow: auto;
   }
   h4 {
     margin: 0.6% 0.6%;
