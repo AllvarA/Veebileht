@@ -15,6 +15,10 @@
     margin-top: 2vh;
     padding: 2vh 2vw;
   }
+  .project-main {
+    height: 50vh;
+    width: 18vw;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
@@ -41,6 +45,10 @@
   ol {
     font-size: 1.6rem;
     margin: 1vh 16vw;
+  }
+  .project-main {
+    height: 45vh;
+    width: 15vw;
   }
 }
 
@@ -69,6 +77,10 @@
     font-size: 1.6rem;
     margin: 1vh 16vw;
   }
+  .project-main {
+    height: 30vh;
+    width: 15vw;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -96,13 +108,48 @@
     font-size: 1.4rem;
     margin: 1vh 10vw;
   }
-  .project-sub {
-    font-size: 1rem;
-    text-align: center;
-    margin-bottom: 0vh;
+  h4 {
+    margin: 1% 1%;
+    font-size: 1.2rem;
+    text-align: justify;
+    overflow: auto;
   }
-  .project-img {
-    height: 66px;
-    width: 140px;
+  .project-main {
+    height: 20vh;
+    width: 13vw;
+  }
+}
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: 10%;
+  }
+  .nav {
+    height: 4rem;
+    width: 100%;
+    padding: 0 1.6rem;
+  }
+
+  .nav-item {
+    margin: 0rem 0.9rem;
+  }
+  .section {
+    margin-top: 1.5vh;
+    padding: 0px 0px;
+  }
+  p {
+    font-size: 1.2rem;
+    margin: 1vh 3vw;
+  }
+  ol {
+    font-size: 1.2rem;
+    margin: 1vh 5vw;
+  }
+  h4 {
+    margin: 0.6% 0.6%;
+    font-size: 0.5rem;
+  }
+  .project-main {
+    height: 20vh;
+    width: 13vw;
   }
 }
