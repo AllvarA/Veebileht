@@ -187,7 +187,6 @@ hr {
 }
 h4 {
   margin: 5% 5%;
-  text-align: justify;
   overflow: hidden;
 }
 .project-folder {
@@ -300,6 +299,11 @@ h4 {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+}
+.side {
+  width: 100%;
+  align-items: center;
+  text-align: center;
 }
 .back1 {
   background-color: bisque;
