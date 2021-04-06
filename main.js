@@ -4,6 +4,12 @@ const shortImg = "url(https://allvara.github.io/web/images/";
 const language = document.querySelector(".lang");
 let projects = document.querySelectorAll(".project-main");
 
+const newDate = new Date();
+const year = newDate.getFullYear();
+const footer = document.querySelector(".footer--copy");
+const footerTextEN = `© Copyright by Allvar Annuk. Website made in ${year}`;
+const footerTextEE = `© Copyright by Allvar Annuk. Veebileht valmistatud ${year}`;
+
 // Project images
 const projectImages = [
   `${shortImg}arva.jpg)`,
@@ -47,7 +53,11 @@ function press(e) {
     window.location.href = webpages[i];
   }
 }
-
+if (language.textContent === "EST") {
+  footer.insertAdjacentHTML("afterbegin", footerTextEN);
+} else {
+  footer.insertAdjacentHTML("afterbegin", footerTextEE);
+}
 // Loops over class project-main and choosing titles for EN and EE
 for (let i = 0; i < projects.length; i++) {
   let project = projects[i];
@@ -60,7 +70,9 @@ for (let i = 0; i < projects.length; i++) {
   // Selecting images and choosing website for every image
   let img = document.querySelector(`.img${i + 1}`);
   img.style.backgroundImage = `${projectImages[i]}`;
-  img.addEventListener("click", function (e) {
+  project.addEventListener("click", function (e) {
+    e.preventDefault();
+    console.log(e.path);
     if (e.path[0].classlist === img[1]) {
       window.location.href = webpages[i];
     }
